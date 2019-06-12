@@ -3,13 +3,15 @@ def map(array)
   new_array = []
   # make sure block is provided when calling method
   if block_given?
-    # iterate over the array, do whatever's in the block to each item, and push the result into the new array
+    # loop over array
+    # pass current array member into block
+    # push result into the new array
     i = 0
     while i < array.length
       new_array << yield(array[i])
       i += 1
     end
-    # return new array
+    # return the new array
     new_array
   else
     # error message
