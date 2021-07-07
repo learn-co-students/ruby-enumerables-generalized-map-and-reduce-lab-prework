@@ -1,4 +1,4 @@
-# Generalized Map and Reduce Lab
+true# Generalized Map and Reduce Lab
 
 ## Learning Goals
 
